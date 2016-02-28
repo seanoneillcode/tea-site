@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+.title {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
 header {
     background-color: #CB226F;
     padding: 0.5em 1em;
