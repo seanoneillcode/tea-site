@@ -1,0 +1,30 @@
+{
+  "name": "tea-site",
+  "version": "1.0.0",
+  "description": "site for tea",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.6.1",
+    "shelljs": "^0.2.6"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1",
+
+    "update-index-async": "node -e \"require('shelljs/global'); sed('-i', /\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/, '//@@NG_LOADER_START@@\\n' + sed(/sourceMappingURL=angular-loader.min.js.map/,'sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map','app/bower_components/angular-loader/angular-loader.min.js') + '\\n//@@NG_LOADER_END@@', 'app/index-async.html');\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanoneillcode/tea-site.git"
+  },
+  "author": "sean oneill",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/seanoneillcode/tea-site/issues"
+  },
+  "homepage": "https://github.com/seanoneillcode/tea-site#readme"
+}
