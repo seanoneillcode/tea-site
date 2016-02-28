@@ -24,6 +24,8 @@ h1 {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -50,6 +52,19 @@ li {
     font-size: 50px;
 }
 
+.section-heading {
+    font-family: 'Crimson Text', serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.section-heading-wrap {
+    width: 400px;
+    align-items: center;
+}
+
 .summary-two {
     margin-left: 150px;
     font-style: italic;
@@ -59,6 +74,24 @@ li {
 .summary-three {
     margin-left: 400px;
     font-size: 80px;
+}
+
+.section-row {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.buffer {
+    width: 400px;
+}
+
+.section-row-text {
+    font-family: 'Crimson Text', serif;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 400px;
 }
 
 .title {
@@ -79,6 +112,10 @@ li {
 .menu-items {
     display: flex;
     flex-direction: row;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 
 .menu-item {
