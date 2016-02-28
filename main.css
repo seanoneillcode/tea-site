@@ -4,19 +4,14 @@ body {
     margin: 0;
 }
 
-.title {
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-size: 50px;
-}
-
 html {
-  background: url(images/main-content.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: rgba(255, 255, 255, 1);
+    background-color: #0A181B;
+    background: url(images/main-content.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(255, 255, 255, 1);
 }
 
 header {
@@ -35,14 +30,6 @@ h1 {
     font-size: 34px;
     line-height: 34px;
 }
-button {
-    background-color: #5C5C5C;
-    cursor: pointer;
-    color: #ffffff;
-    text-decoration: none;
-    border: none;
-    margin-right: 1em;
-}
 .item-label {
     border: none;
     background-color: #18416B;
@@ -58,4 +45,40 @@ li {
 }
 .hidden {
     display: none;
+}
+
+.row {
+    font-family: 'Crimson Text', serif;
+    font-size: 50px;
+}
+
+.summary-two {
+    margin-left: 150px;
+    font-style: italic;
+    font-size: 54px;
+}
+
+.summary-three {
+    margin-left: 400px;
+    font-size: 80px;
+}
+
+.title {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 0px;
+    border-bottom: 1px;
+    border-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-style: solid;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.summary-container {
+    margin-top: 342px;
+    margin-left: 123px;
 }
