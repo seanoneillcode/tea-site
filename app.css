@@ -1,21 +1,16 @@
 body {
-
     font-family: sans-serif;
     margin: 0;
 }
 
 html {
     background-color: #0A181B;
-    /*background: url(images/main-content.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
 }
 
 header {
     padding: 0.5em 1em;
     display: flex;
+    background-color:#fff;
 }
 
 section,
@@ -103,13 +98,11 @@ li {
     align-items: center;
 }
 
-.title {
+.brand-name {
     font-family: 'Crimson Text', serif;
     font-size: 3em;
-    border: 0px;
-    border-bottom: 1px;
-    border-style: solid;
-    margin-bottom: 0.3em;
+    display: flex;
+    align-items: center;
 }
 
 .summary-container {
@@ -148,10 +141,14 @@ li {
     background-image: url("images/contact.jpg");
 }
 
-.header {
+#buddha {
+    background-image: url("images/buddha.jpg");
+}
+
+.title-contact-us {
     font-family: 'Crimson Text', serif;
     font-size: 60px;
-    margin-bottom: 100px;
+    border-bottom: solid 1px;
 }
 
 .contact-content {
@@ -162,7 +159,7 @@ li {
 .center-section {
     align-items: center;
     justify-content: center;
-    height: 900px;
+    height: 1100px;
 }
 
 .dark-wrap {
