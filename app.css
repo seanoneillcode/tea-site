@@ -131,18 +131,22 @@ li {
 
 #home {
     background-image: url("images/main-content.jpg");
+    height:800px;
 }
 
 #story {
     background-image: url("images/kitchen.jpg");
+    height:900px;
 }
 
 #contact {
     background-image: url("images/contact.jpg");
+    height:900px;
 }
 
 #buddha {
     background-image: url("images/buddha.jpg");
+    height:900px;
 }
 
 .title-contact-us {
@@ -159,13 +163,13 @@ li {
 .center-section {
     align-items: center;
     justify-content: center;
-    height: 1100px;
 }
 
 .dark-wrap {
     background-color: rgba(0, 0, 0, 0.36);
     width: 420px;
     text-align: center;
+    margin-top: 500px;
 }
 
 .dark {
@@ -179,17 +183,11 @@ li {
 }
 
 .across-bg {
-    background-position: 50% 0%;
     width: 100%;
-    min-height: 1024px;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-color: #ffffff;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
+    display: block;
+    max-width: 100%;
+    border: 0;
+    margin: 0;
+    zoom: 1;
+    background-size: 100%;
 }
