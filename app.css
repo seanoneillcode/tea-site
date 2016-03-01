@@ -131,7 +131,7 @@ li {
 
 #home {
     background-image: url("images/main-content.jpg");
-    height:800px;
+    height:880px;
 }
 
 #story {
@@ -206,13 +206,11 @@ li {
 }
 
 .dark {
-    color: #000;
-    border-color: #000;
+    color: #1D242A;
 }
 
 .light {
-    color: #fff;
-    border-color: #fff;
+    color: #ECE7E4;
 }
 
 .across-bg {
