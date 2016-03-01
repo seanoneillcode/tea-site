@@ -152,24 +152,57 @@ li {
 .title-contact-us {
     font-family: 'Crimson Text', serif;
     font-size: 60px;
-    border-bottom: solid 1px;
 }
 
-.contact-content {
+.contact-items {
     font-family: 'Crimson Text', serif;
     font-size: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
-.center-section {
+.contact-item {
+    width: 33%;
+}
+
+.contact-phone {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.dark-wrap {
-    background-color: rgba(0, 0, 0, 0.36);
-    width: 420px;
-    text-align: center;
-    margin-top: 500px;
+.contact-phone>p {
+    -ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
+    transform: rotate(-30deg);
+    padding-right: 60px;
+}
+
+.contact-email {
+    padding-left: 123px;
+    font-size: 40px
+}
+
+.contact-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-address>p {
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    font-size: 20px;
+}
+
+.center-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .dark {
