@@ -222,3 +222,24 @@ li {
     zoom: 1;
     background-size: 100%;
 }
+
+.tea-name {
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+.tea-type {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.tea-tag {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.tea-desc {
+    font-size: 1.5em;
+    width: 50%;
+    margin-top: 20px;
+}
