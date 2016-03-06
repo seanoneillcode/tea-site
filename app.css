@@ -74,6 +74,7 @@ li {
     flex-direction: row;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .buffer {
@@ -136,17 +137,27 @@ li {
 
 #story {
     background-image: url("images/kitchen.jpg");
-    height:900px;
+    height:800px;
 }
 
 #contact {
     background-image: url("images/contact.jpg");
-    height:900px;
+    height:800px;
 }
 
 #buddha {
-    background-image: url("images/buddha.jpg");
-    height:900px;
+    background-color: #fff;
+    height: 800px;
+}
+
+#dandy {
+    background-color: #fff;
+    height: 800px;
+}
+
+#hackney {
+    background-color: #fff;
+    height: 800px;
 }
 
 .title-contact-us {
@@ -228,6 +239,10 @@ li {
     margin-top: 20px;
 }
 
+.tea-name-dandy {
+    color: #980128;
+}
+
 .tea-type {
     font-size: 2em;
     margin-top: 20px;
@@ -240,6 +255,20 @@ li {
 
 .tea-desc {
     font-size: 1.5em;
-    width: 50%;
     margin-top: 20px;
+}
+
+.tea-container {
+    display:flex;
+}
+
+.tea-details {
+    width: 50%;
+}
+
+.tea-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
 }
