@@ -238,6 +238,7 @@ li {
 .tea-name {
     font-size: 4em;
     margin-top: 20px;
+    border-bottom: solid 2px #B3094B;
 }
 
 .tea-type {
