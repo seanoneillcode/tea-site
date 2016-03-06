@@ -146,17 +146,17 @@ li {
 }
 
 #buddha {
-    background-color: #568440;
+    background-color: #fff;
     height: 800px;
 }
 
 #dandy {
-    background-color: #41597D;
+    background-color: #fff;
     height: 800px;
 }
 
 #hackney {
-    background-color: #980128;
+    background-color: #fff;
     height: 800px;
 }
 
@@ -256,21 +256,19 @@ li {
 
 .tea-container {
     display:flex;
-    justify-content: space-around;
 }
 
 .tea-details {
-    width: 40%;
+    width: 50%;
 }
 
 .tea-image {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 40%;
+    width: 50%;
 }
 
 .tea-section {
-    background-color: #fff;
     height: 100%;
 }
