@@ -261,6 +261,9 @@ li {
 
 .tea-details {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .tea-image {
@@ -268,6 +271,22 @@ li {
     justify-content: center;
     flex-direction: row;
     width: 50%;
+}
+
+.tea-image>img {
+    height: 100%;
+    margin-top: 30%;
+    border: solid 10px #1D242A;
+}
+
+.tea-product-image {
+    height: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.tea-product-image>img {
+    height: 600px;
 }
 
 .tea-section {
