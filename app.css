@@ -133,7 +133,18 @@ li {
 
 #home {
     background-image: url("images/main-content.jpg");
-    height:880px;
+    height:800px;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container-item {
+    font-family: 'Crimson Text', serif;
+    font-size: 15em;
 }
 
 #story {
