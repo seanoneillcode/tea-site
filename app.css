@@ -172,6 +172,11 @@ li {
     height: 800px;
 }
 
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .title-contact-us {
     font-family: 'Crimson Text', serif;
     font-size: 60px;
