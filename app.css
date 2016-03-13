@@ -254,7 +254,7 @@ li {
 .tea-name {
     font-size: 4em;
     margin-top: 20px;
-    border-bottom: solid 2px #B3094B;
+    border-bottom: solid 2px #CC4B5D;
 }
 
 .tea-type {
@@ -273,6 +273,7 @@ li {
 }
 
 .tea-container {
+    height: 700px;
     display:flex;
 }
 
@@ -288,12 +289,11 @@ li {
     justify-content: center;
     flex-direction: row;
     width: 50%;
+    align-items: center;
 }
 
 .tea-image>img {
-    height: 100%;
-    margin-top: 30%;
-    border: solid 10px #1D242A;
+    height: 400px;
 }
 
 .tea-product-image {
@@ -307,5 +307,7 @@ li {
 }
 
 .tea-section {
-    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
