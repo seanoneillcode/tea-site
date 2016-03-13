@@ -157,15 +157,19 @@ li {
     height:800px;
 }
 
-#buddha {
+.buddha-green {
     background-color: #2FBA8A;
 }
 
-#dandy {
+.dandy-blue {
     background-color: #23B4B2;
 }
 
-#hackney {
+.light-grey {
+    background-color: #6F6F6F;
+}
+
+.hackney-red {
     background-color: #CC4B5D;
 }
 
@@ -272,6 +276,7 @@ li {
 .tea-container {
     height: 600px;
     display:flex;
+    width:60%;
 }
 
 .tea-details {
@@ -302,7 +307,6 @@ li {
 
 .tea-section {
     display: flex;
-    align-items: center;
     flex-direction: row;
     background-color: #F9F9F9;
 }
@@ -310,4 +314,8 @@ li {
 .tea-breaker {
     height: 100px;
     background-color: #333333;
+}
+
+.tea-margin {
+    width:20%;
 }
