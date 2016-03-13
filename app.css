@@ -158,18 +158,15 @@ li {
 }
 
 #buddha {
-    background-color: #fff;
-    height: 800px;
+    background-color: #2FBA8A;
 }
 
 #dandy {
-    background-color: #fff;
-    height: 800px;
+    background-color: #23B4B2;
 }
 
 #hackney {
-    background-color: #fff;
-    height: 800px;
+    background-color: #CC4B5D;
 }
 
 .navbar-header {
@@ -273,7 +270,7 @@ li {
 }
 
 .tea-container {
-    height: 700px;
+    height: 600px;
     display:flex;
 }
 
@@ -282,6 +279,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 30px;
 }
 
 .tea-image {
@@ -302,12 +300,14 @@ li {
     justify-content: center;
 }
 
-.tea-product-image>img {
-    height: 600px;
-}
-
 .tea-section {
     display: flex;
     align-items: center;
     flex-direction: row;
+    background-color: #F9F9F9;
+}
+
+.tea-breaker {
+    height: 100px;
+    background-color: #333333;
 }

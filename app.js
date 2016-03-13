@@ -5,9 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.home',
   'myApp.story',
-  'myApp.dandy',
-  'myApp.hackney',
-  'myApp.buddha',
+  'myApp.teas',
   'myApp.contact'
 ]).
 config(['$routeProvider', function($routeProvider) {
